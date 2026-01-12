@@ -21,6 +21,8 @@ import torchvision.transforms.functional as TF
 from torchvision.transforms import transforms
 
 
+from torchvision.transforms import transforms
+
 def get_im_gt_name_dict(datasets, flag='valid'):
     print("------------------------------", flag, "--------------------------------")
 
